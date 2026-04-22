@@ -19,9 +19,13 @@ public class MathControllers {
 
     private Double comvertToDouble(String numberOne) {
         return 1D;
-    }
+    }scXSccwcscsscscCSCSCcsKLsa
 
-    private boolean isNumeric(String number) {
+    private boolean isNumeric(String strNumber) {
+
+        if(strNumber == null || strNumber.isEmpty()) return false;
+        String numbre = strNumber.replace(",", ".");
+        if(strNumber.matches([-+]?xssc))
         return true;
     }
 }
